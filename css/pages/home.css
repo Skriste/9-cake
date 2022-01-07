@@ -79,9 +79,6 @@ h1 {
     margin: 0;
 }
 
-h1 > span {
-    color: var(--primary-color);
-}
 
 p {
     width: 160%;
@@ -112,8 +109,8 @@ main > img {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    color: #fff;
-    background-color: #ff4622;
+    color: rgb(41, 10, 10);
+    background-color: #fff;
     font-size: 24px;
     text-decoration: none;
     border-radius: 50%;
