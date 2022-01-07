@@ -1,0 +1,96 @@
+:root {
+    --oranzine: #ff4622;
+    --plotis: 1200px;
+    --soninis-atstumas: calc((100% - var(--plotis)) / 2);
+    --main-width: calc(100% - var(--soninis-atstumas));
+    --text-width: calc(var(--plotis) * 0.4);
+    --text-margin: calc(var(--plotis) * 0.1);
+    --image-width: calc(var(--plotis) * 0,5 + var(--soninis-atstumas));    
+}
+body {
+    font-family: cursive
+}
+
+header {
+    display: inline-block;
+    width: var(--plotis);
+    margin-left: var(--soninis-atstumas);
+}
+
+header > img {
+    float: left;
+    height: 40px;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav > a {
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #2c253e;
+    margin-left: 20px;
+    border-bottom: 3px solid transparent;
+}
+
+nav > a:hover {
+    border-color: #ff4622;
+}
+
+nav > a:first-child {
+    margin-left: 0;
+    border-color: #fff;
+}
+
+main {
+    float: left;
+    width: var(--main-width);
+    margin-left: var(--soninis-atstumas);
+}
+
+div {
+    float: left;
+    text-align: left;
+    margin-top: 80px;
+    width: 25%;
+    margin-right: var(--text-margin);
+}
+
+h1 {
+    display: inline-block;
+    width: 120%;
+    font-size: 30px;
+    margin: 0;
+}
+
+h1 > span {
+    color: var(--primary-color);
+}
+
+p {
+    width: 160%;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+div > a {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+div > a:hover {
+    color: #fff;
+} 
+
+main > img {
+    float: right;
+    width: 50%;   
+}
